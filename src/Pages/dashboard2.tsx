@@ -10,6 +10,7 @@ import { TableChart } from "../Components/dc/table";
 import { MoveChart } from "../Components/dc/moveChart";
 import { DataTable } from "../Components/dc/nasdaqTable";
 import { DataContext } from "../Components/dc/cxContext";
+import { RowChartHelper } from '../Components/dc/rowChart'
 import { css } from 'glamor';
 import React, { useState, useEffect } from "react";
 import { connect } from 'react-redux';
@@ -98,20 +99,23 @@ const Dashboard = (props) => {
                 <Row>
                     <Col md={12} >
                         {/* <BubbleChart /> */}
-                        {<SelectionMenuChart keys="States" keys2="" title={""} width="20%" id="container" />}
+                        {<SelectionMenuChart keys="States" keys2="" title={"State Filter"} width="15%" id="container" />}
                     </Col>
-                    <Col md={12} >
+                    {/* <Row> */}
+                    <Col md={12}>
                         {/* <BubbleChart /> */}
                         {/* {<FluctuationChart />} */}
-                        {<FluctuationChart keys="States" keys2="villages_electrified_2_" title={"Village Electric Data"} width="90%" />}
+                        {/* {<RowChartHelper keys="States" keys2="villages_electrified_2_" title={"Village Electric Data"} width="50%" />} */}
+                        {<FluctuationChart keys="States" keys2="villages_electrified_2_" title={"Village Electric Data"} width="80%" />}
 
                     </Col>
-                    <Col md={12} >
+                    <Col md={6}>
                         {/* <BubbleChart /> */}
                         {/* {<FluctuationChart />} */}
                         {<TableChart keys="States" keys2={['States', 'townElectricData', 'towns_percentage', 'villages_electrified_2_', 'villages_percentage']} title={"India Powered Electric Data"} id="table" width="60%" />}
 
                     </Col>
+                    {/* </Row> */}
                 </Row>
 
             </DataContext>
