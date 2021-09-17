@@ -67,9 +67,9 @@ export const ChartTemplate = props => {
       id={id}
       {...chartStyles}
     >
-
-      <ResetButton chart={chart} />
       <label>{props.title}</label>
+      <ResetButton chart={chart} />
+
     </div>
   );
 };
