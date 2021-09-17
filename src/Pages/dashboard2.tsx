@@ -106,7 +106,7 @@ const Dashboard = (props) => {
                         {/* <BubbleChart /> */}
                         {/* {<FluctuationChart />} */}
                         {/* {<RowChartHelper keys="States" keys2="villages_electrified_2_" title={"Village Electric Data"} width="50%" />} */}
-                        {<FluctuationChart keys="States" keys2="villages_electrified_2_" title={"Village Electric Data"} width="100%" />}
+                        {<FluctuationChart keys="States" keys2="villages_electrified_2_" title={""} width="100%" />}
 
                     </Col>
                     <Col md={12}>
