@@ -1,35 +1,36 @@
-import { getelectric } from '../api/api'
+import { getfuelprice } from '../api/api'
 
 const intialState = {
     isLoading: true
 }
 
-export const electric = ({
+export const fuelprices = ({
 
     state: intialState,
     reducers: {
 
 
-        setElectric(state, electricResponse) {
+        setFuel(state, fuelResponse) {
             return {
 
                 ...state,
                 isLoading: false,
-                ...electricResponse
+                ...fuelResponse
             }
         }
+
 
     },
     effects: {
 
-        async loadElectric() {
+        async loadfuel() {
             // if(!params) return;
             // const {data , field} = state;
-            const electricResponse = await getelectric();
-            this.setElectric({ ...electricResponse });
+            const fuelResponse = await getfuelprice();
+            this.setFuel({ ...fuelResponse })
         }
     }
 
 });
 
-export default electric;
+export default fuelprices;

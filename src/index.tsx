@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import { dc_datatables } from 'https://dc-js.github.io/dc.datatables.js/js/dc.datatables.js'
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap-theme.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
