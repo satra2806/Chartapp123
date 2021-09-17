@@ -33,7 +33,7 @@ const selectfunc = (divRef, ndx, keys, keys2, id) => {
     select1
         .dimension(runDimension)
         .group(runDimension.group())
-        .multiple(true)
+        // .multiple(true)
         .controlsUseVisibility(true)
         .title(kv => kv.key);
     select1.render()
@@ -49,10 +49,10 @@ const selectfunc = (divRef, ndx, keys, keys2, id) => {
 
     $(document).ready(function () {
 
-        //     $('#' + id + '  .dc-select-menu').selectpicker({
-        //         style: 'btn-info',
-        //         size: 10
-        //     });
+        // $('#' + id + '  .dc-select-menu').selectpicker({
+        //     style: 'btn-info',
+        //     size: 10
+        // });
 
     })
 
