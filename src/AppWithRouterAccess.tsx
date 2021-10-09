@@ -6,6 +6,7 @@ import { history } from "./helpers/history";
 
 const DashBoard = React.lazy(() => import('./Pages/dashboard'))
 const DashBoard2 = React.lazy(() => import('./Pages/dashboard2'))
+const InterView = React.lazy(() => import('./Pages/interview'))
 
 const AppWithRouterAccess = () => {
     return (
@@ -17,7 +18,7 @@ const AppWithRouterAccess = () => {
                             <Router history={history}>
                                 <Route path='/dashboard' component={DashBoard} />
                                 <Route path='/dashboard2' component={DashBoard2} />
-
+                                <Route path='/interview' component={InterView} />
                             </Router>
                         </Suspense>
                     </Switch>

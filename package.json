@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@dashboardcode/bsmultiselect": "^0.6.28",
+    "@material-ui/core": "^4.12.3",
     "@popperjs/core": "^2.10.1",
     "@rematch/core": "^2.1.0",
     "@rematch/select": "^3.1.0",
@@ -31,6 +32,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.25.1",
     "flexboxgrid2": "^7.2.1",
+    "formik": "^2.2.9",
     "glamor": "^2.20.40",
     "history": "^5.0.1",
     "jquery": "^3.6.0",
@@ -56,7 +58,8 @@
     "vega": "^5.20.2",
     "vega-lite": "^5.1.1",
     "virtual-select-plugin": "^1.0.16",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",

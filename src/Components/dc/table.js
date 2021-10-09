@@ -13,6 +13,8 @@ import * as dc_datatables from 'dc.datatables'
 
 const tablefunc = (divRef, ndx, keys, keys2) => {
     // console.log(dc_view)
+    // require("dc-tableview");
+    // dc.tableview(divRef, "chartGroupName");
     console.log(dc_datatables.datatable(divRef))
     var chart1 = dc.dataTable(divRef);
     // var chart1 = dc_datatables.datatable(divRef)

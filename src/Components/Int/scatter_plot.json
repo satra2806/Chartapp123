@@ -1,0 +1,44 @@
+[
+    {
+        "year": "2020",
+        "month": "05",
+        "date" : "12",
+        "store_count": 4200   
+    },
+    {
+        "year": "2020",
+        "month": "06",
+        "date" : "16",
+        "store_count": 3800   
+    },
+    {
+        "year": "2020",
+        "month": "07",
+        "date" : "02",
+        "store_count": 412   
+    },
+    {
+        "year": "2020",
+        "month": "07",
+        "date" : "21",
+        "store_count": 680   
+    },
+    {
+        "year": "2020",
+        "month": "07",
+        "date" : "26",
+        "store_count": 830   
+    },
+    {
+        "year": "2020",
+        "month": "08",
+        "date" : "30",
+        "store_count": 1300   
+    },
+    {
+        "year": "2020",
+        "month": "08",
+        "date" : "11",
+        "store_count": 4200   
+    }
+]
