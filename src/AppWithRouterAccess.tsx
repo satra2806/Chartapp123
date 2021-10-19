@@ -7,6 +7,10 @@ import { history } from "./helpers/history";
 const DashBoard = React.lazy(() => import('./Pages/dashboard'))
 const DashBoard2 = React.lazy(() => import('./Pages/dashboard2'))
 const InterView = React.lazy(() => import('./Pages/interview'))
+const Join = React.lazy(() => import('./Components/Join/Join'))
+const Chat = React.lazy(() => import('./Components/Chat/Chat'))
+
+
 
 const AppWithRouterAccess = () => {
     return (
@@ -16,9 +20,14 @@ const AppWithRouterAccess = () => {
                     <Switch>
                         <Suspense fallback={<div>Loading...</div>}>
                             <Router history={history}>
+                                <Route path='/' exact component={Join} />
                                 <Route path='/dashboard' component={DashBoard} />
                                 <Route path='/dashboard2' component={DashBoard2} />
                                 <Route path='/interview' component={InterView} />
+
+                                <Route path='/chat' component={Chat} />
+
+
                             </Router>
                         </Suspense>
                     </Switch>
