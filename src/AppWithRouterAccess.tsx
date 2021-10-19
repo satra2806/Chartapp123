@@ -15,13 +15,14 @@ const Chat = React.lazy(() => import('./Components/Chat/Chat'))
 const AppWithRouterAccess = () => {
     return (
         <React.Fragment>
+
             <BrowserRouter>
                 <Provider store={store}>
                     <Switch>
                         <Suspense fallback={<div>Loading...</div>}>
                             <Router history={history}>
                                 <Route path='/' exact component={Join} />
-                                <Route path='/dashboard' component={DashBoard} />
+                                <Route path='/dashboard1' component={DashBoard} />
                                 <Route path='/dashboard2' component={DashBoard2} />
                                 <Route path='/interview' component={InterView} />
 
