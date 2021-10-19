@@ -7,7 +7,7 @@ import { ChartTemplate } from "./chartTemplate";
 import './table.css'
 import $ from 'jquery';
 import Popper from 'popper.js';
-import * as dc_datatables from 'dc.datatables'
+// import * as dc_datatables from 'dc.datatables'
 // import * as dc_view from 'dc-tableview'
 
 
@@ -15,7 +15,7 @@ const tablefunc = (divRef, ndx, keys, keys2) => {
     // console.log(dc_view)
     // require("dc-tableview");
     // dc.tableview(divRef, "chartGroupName");
-    console.log(dc_datatables.datatable(divRef))
+    // console.log(dc_datatables.datatable(divRef))
     var chart1 = dc.dataTable(divRef);
     // var chart1 = dc_datatables.datatable(divRef)
 
