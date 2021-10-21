@@ -9,9 +9,10 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-// const ENDPOINT = 'https://project-chat-application.herokuapp.com/';
-const ENDPOINT = 'http://localhost:5000 /';
+const ENDPOINT = 'https://api-app-dhw32n17g-easyapptechs.vercel.app/';
+const ENDPOINT = 'http://localhost:8080/';
 
+// https://api-app-easyapptechs.vercel.app/
 
 let socket;
 
