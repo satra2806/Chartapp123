@@ -9,6 +9,7 @@ const DashBoard2 = React.lazy(() => import('./Pages/dashboard2'))
 const InterView = React.lazy(() => import('./Pages/interview'))
 const Join = React.lazy(() => import('./Components/Join/Join'))
 const Chat = React.lazy(() => import('./Components/Chat/Chat'))
+const System = React.lazy(() => import('./Pages/system'))
 
 
 
@@ -25,6 +26,8 @@ const AppWithRouterAccess = () => {
                                 <Route path='/dashboard3' component={DashBoard} />
                                 <Route path='/dashboard2' component={DashBoard2} />
                                 <Route path='/interview' component={InterView} />
+                                <Route path='/system' component={System} />
+
 
                                 <Route path='/chat' component={Chat} />
 
