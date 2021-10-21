@@ -10,7 +10,7 @@ import Input from '../Input/Input';
 import './Chat.css';
 
 const ENDPOINT = 'https://api-app-dhw32n17g-easyapptechs.vercel.app/';
-const ENDPOINT = 'http://localhost:8080/';
+// const ENDPOINT = 'http://localhost:8080/';
 
 // https://api-app-easyapptechs.vercel.app/
 
