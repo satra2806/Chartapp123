@@ -13,6 +13,7 @@ const ENDPOINT = 'https://api-app-dhw32n17g-easyapptechs.vercel.app/';
 // const ENDPOINT = 'http://localhost:8080/';
 
 // https://api-app-easyapptechs.vercel.app/
+let c;
 
 let socket;
 
